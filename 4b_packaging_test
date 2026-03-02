@@ -1,3 +1,3 @@
 theia@theiadocker-briancostell:/home/project/final_project$ python3.11 -m EmotionDetection 
 Enter text to analyze emotions: I hate working long hours
-{'anger': 0.64949876, 'disgust': 0.00862553, 'fear': 0.05612277, 'joy': 0.00862553, 'sadness': 0.1955148, 'dominant_emotion': 'anger'}
+{'anger': 0.64949876, 'disgust': 0.03718168, 'fear': 0.05612277, 'joy': 0.00862553, 'sadness': 0.1955148, 'dominant_emotion': 'anger'}

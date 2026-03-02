@@ -1,0 +1,18 @@
+theia@theiadocker-briancostell:/home/project$ curl -i "http://127.0.0.1:5000/emotionDetector?textToAnalyze="
+HTTP/1.1 400 BAD REQUEST
+Server: Werkzeug/3.1.3 Python/3.11.14
+Date: Mon, 02 Mar 2026 22:19:23 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 31
+Connection: close
+
+Invalid text! Please try again!
+theia@theiadocker-briancostell:/home/project$ curl -i "http://127.0.0.1:5000/emotionDetector?textToAnalyze=%20%20%20"
+HTTP/1.1 400 BAD REQUEST
+Server: Werkzeug/3.1.3 Python/3.11.14
+Date: Mon, 02 Mar 2026 22:21:53 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 31
+Connection: close
+
+Invalid text! Please try again!

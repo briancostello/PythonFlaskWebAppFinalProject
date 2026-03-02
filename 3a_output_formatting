@@ -31,7 +31,7 @@ def emotion_detector(text_to_analyse):
     # Returning a dictionary containing emotion results 
     return {
         'anger': anger_score,
-        'disgust': joy_score,
+        'disgust': disgust_score,
         'fear': fear_score,
         'joy': joy_score,
         'sadness': sadness_score,

@@ -1,0 +1,4 @@
+theia@theiadocker-briancostell:/home/project/PythonFlaskWebAppFinalProject$ pylint server.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.52/10, +0.48)
